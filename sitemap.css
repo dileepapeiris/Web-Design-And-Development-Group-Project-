@@ -1,0 +1,46 @@
+body {
+  background-image: url(Images/Student4/SiteMap/backgroundimage.jpg);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+#sitemap-header-section {
+  background-color: rgba(18, 1, 1, 0.83);
+}
+
+#site-map-section h1 {
+  color: rgb(230, 227, 227);
+  margin-bottom: 1rem;
+}
+
+#svg-section {
+  width: 100%;
+  height: auto;
+  background-color: rgba(203, 195, 195, 0.215);
+}
+
+svg {
+  margin-top: 100px;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+}
+
+svg a:hover rect,
+svg a:focus rect {
+  fill: green;
+  stroke: white;
+}
+
+svg a:hover text,
+svg a:focus text {
+  fill: white;
+}
+
+svg a:focus {
+  outline: none;
+}
